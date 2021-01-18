@@ -1,0 +1,19 @@
+{
+  "rust-analyzer.inlayHints.enable": true,
+  "rust-analyzer.assist.importMergeBehaviour": "full",
+  "rust-analyzer.assist.importPrefix": "by_self",
+  "rust-analyzer.cargo.autoreload": true,
+  "rust-analyzer.cargo.loadOutDirsFromCheck": true,
+  // "rust-analyzer.completion.enableExperimental": true,
+  "rust-analyzer.completion.postfix.enable": true,
+  "rust-analyzer.diagnostics.enableExperimental": true,
+  "rust-analyzer.files.watcher": "client",
+  "rust-analyzer.lens.enable": true,
+  "rust-analyzer.lens.implementations": true,
+  "rust-analyzer.lens.debug": true,
+  "rust-analyzer.lens.methodReferences": true,
+  "rust-analyzer.lens.run": true,
+  "cargo.automaticCheck": true,
+  "cmake.configureOnOpen": false
+  // "crates.useLocalCargoIndex": true
+}

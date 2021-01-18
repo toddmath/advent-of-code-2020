@@ -1,0 +1,40 @@
+[package]
+name = "aoc2020"
+version = "0.1.0"
+authors = ["Todd Matheson <tmatheson11186@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+aoc-runner = { path = "../aoc-runner" }
+common = { path = "../common" }
+anyhow = "1.0.37"
+thiserror = "1.0.23"
+regex = "1.4.3"
+itertools = "0.10.0"
+rayon = "1.5.0"
+predicates = "1.0.6"
+fnv = "1.0.7"
+maplit = "1.0.2"
+lazy_static = "1.4.0"
+scan_fmt = "0.2.5"
+chrono = "0.4.19"
+petgraph = "0.5.1"
+peeking_take_while = "0.1.2"
+iter-enum = { version = "0.2", features = ["rayon"] }
+io-enum = "0.2"
+bitvec = "0.20.1"
+hex2d = "1.0.0"
+clap = "3.0.0-beta.2"
+
+# toml = "0.5.8"
+# reqwest = { version = "0.11.0", features = ["blocking", "json", "cookies"] }
+# webbrowser = "0.5.5"
+directories = "3.0.1"
+
+num-iter = "0.1.42"
+num-traits = "0.2.14"
+num-integer = "0.1.44"
+num-derive = "0.3.3"
+primitive-types = "0.8.0"

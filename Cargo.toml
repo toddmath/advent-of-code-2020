@@ -1,0 +1,2 @@
+[workspace]
+members = ["aoc-runner", "aoc2020", "common"]
